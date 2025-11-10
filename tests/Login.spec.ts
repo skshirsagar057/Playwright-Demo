@@ -38,9 +38,9 @@ test.afterEach(async ({ page }) => {
 });
 
 
-test('User login test @master @sanity @regression',async()=>{
+test('Test User login test @master @sanity @regression',async()=>{
 
-    //Navigate to Login page via Home page
+    //Navigate to Login page via Home page . of the appliaction
 
     await homePage.clickMyAccount();
     await homePage.clickLogin();
